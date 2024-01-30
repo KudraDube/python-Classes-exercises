@@ -1,0 +1,11 @@
+class Dog:
+    def __init__(self, name, age):
+        self.name = name  # 'name' is an attribute
+        self.age = age    # 'age' is another attribute
+
+# Creating an instance of the Dog class
+my_dog = Dog(name="Buddy", age=3)
+
+# Accessing attributes using dot notation
+print(my_dog.name)  # Accessing the 'name' attribute
+print(my_dog.age)   # Accessing the 'age' attribute
